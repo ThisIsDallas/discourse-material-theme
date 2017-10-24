@@ -6,6 +6,10 @@
   background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.d-header #site-logo {
+    max-height: 40px;
+}
+
 
 @function brightness($color) {
   @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));
